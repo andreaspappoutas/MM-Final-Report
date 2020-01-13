@@ -1,37 +1,60 @@
-## Welcome to GitHub Pages
+#### ΤΕΛΙΚΗ ΑΝΑΦΟΡΑ MM-ΠΟΛΥΜΕΣΑ
+#### ΑΝΤΡΕΑΣ ΠΑΠΠΟΥΤΑΣ
+#### Π2017148
 
-You can use the [editor on GitHub](https://github.com/andreaspappoutas/MM-Final-Report/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+#### [Προφίλ στο github](https://github.com/andreaspappoutas 'Προφίλ στο github')
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### [Λινκ κλαδί εργασίας](https://github.com/andreaspappoutas/mm/tree/2017148 'Λινκ αποθετηρίου εργασίας')
 
-### Markdown
+#### [Λινκ αποθετηρίου εργασίας](https://github.com/andreaspappoutas/mm 'Λινκ αποθετηρίου εργασίας')
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### [Λινκ αποθετηριου τελικης αναφοράς](https://github.com/andreaspappoutas/MM-Final-Report 'Λινκ αποθετηριου τελικης αναφοράς')
 
-```markdown
-Syntax highlighted code block
+## Σύνοψη:
+Στο μάθημα πολυμέσα στάλθηκαν 5 παραδοτέα στις ημερομηνίες που είχαν οριστεί. Στο πρώτο παραδοτέο κατέβασα και έπαιξα ένα αρχείο mp3 μέσω του τέρμιναλ. Στο δεύτερο κατέβασα ένα τόρρεντ. Στο τρίτο, μέσω του τέρμιναλ έκανα επεξεργασία ενός "spreadsheet" με δεδομένα από το ΕΛΣΤΑΤ. Στο τέταρτο παραδοτέο έπρεπε να διαχειριστούμε τη μουσική μας βιβλιοθήκη. Στο τελευταίο μου παραδοτέο έκανα επίδειξη ενός μουσικού mp3 άλμπουμ μέσο του cmus. 
 
-# Header 1
-## Header 2
-### Header 3
+## Σύντομη Εισαγωγή:
+Στο πρώτο παραδοτέο για να κατεβάσουμε το αρχείο mp3 χρησιμοποίησα τη εφαρμογή "youtube-dl". Μέτα εγκατέστησα τη εφαρμογή "mpv" τη οποία χρειάστηκα για τη αναπαραγωγή του αρχείου αυτού. Για να κατεβάσω το τόρρεντ έκανα εγκατάσταση της εφαρμογής "rtorrent" με τη οποία μπορείς να κατεβάσεις τόρρεντ από το τέρμιναλ. Για το τρίτο παραδοτέο έγινε χρήση του "sc-im" με το οποίο μπορείς να φτιάξεις και να τροποποιήσεις αρχεία "spreadsheet" από το τέρμιναλ. Για το τέταρτο παραδοτέο κατέβασα τη εφαρμογή "beets" μέσο της οποίας έφτιαξα και τροποποίησα μουσικές βιβλιοθήκες.Επίσης έβαλα και αφαίρεσα τραγούδια και άλλαξα τα "tags" τους. Για τη διεκπεραίωση του τελικού παραδοτέου που έφτιαξα έγινε χρήση του "cmus". Το "cmus" είναι ένα αρκετά δυνατό πρόγραμμα με το οποίο μπορείς να διαχειριστείς πάρα πολλά άλμπουμ σε τεράστιες βιβλιοθήκες.
 
-- Bulleted
-- List
+## Σύντομη Ανάλυση σχετικών Έργων και Εργαλείων:
+Η περάτωση των πιο πάνω εργασιών έγινε μέσα σε τέρμιναλ του Linux. Για τη εγκατάσταση του Linux κατέβασα το λογισμικό ubuntu το οποίο στη συνεχεία χρησιμοποιούσα με τη εφαρμογή VirtualBox. Με τη εντολή "sudo gedit ~/.bashrc" άλλαξα το hostname που εμφανίζεται στο τέρμιναλ. Επίσης εγκατέστησα και έφτιαξα λογαριασμό για τη εφαρμογή asciinema με το οποία έδειξα το κάθε παραδοτέο. Τέλος χρειάστηκα επίσης να κάνω εγκατάσταση του Python και FFMPEG.
 
-1. Numbered
-2. List
+## Μέθοδος και Τεχνικές Ανάπτυξης:
+Πρώτα απ'όλα άλλαξα το hostname σε P2017148 και έκανα εγκατάσταση της Python και FFMPEG με τις εντολές:sudo apt-get install python3.6, sudo apt install ffmpeg . Ακολούθως άρχισα το πρώτο παραδοτέο με τη εγκατάσταση του youtube-dl και mpv. Μέσο της εντολής youtube-dl --extract-audio --audio-format mp3 --output song.mp3 <url> κατέβασα ένα αρχείο mp3 και το άκουσα με τη εφαρμογή mpv. Στο δεύτερο παραδοτέο έκανα εγκατάσταση της εφαρμογής rtorrent (sudo apt-get install rtorrent) τη οποία όταν ανοίξεις μπορείς να κάνεις τα ακόλουθα με τα παρακάτω keybindings:ctrl+S = Ξεκίνα τόρρεντ, ctrl+D = Σταμάτα τόρρεντ, ctrl+D(x2) = Διέγραψε τόρρεντ . Επίσης έπρεπε να φτιάξω τους φακέλους rDownloads, rSessions και rWatch και να τους βάλω μέσα στο αρχείο .rtorrent.rc . Για το τρίτο παραδοτέο κατέβασα και εγκατέστησα το sc-im και δεδομένα από το ΕΛΣΤΑΤ. Μέσο τον keybindings της εφαρμογής έκανα αντιγραφή στηλών, διαγραφή και άλλαξα θέσει γραμμών, έβαλα τίτλο και στο τέλος έβαλα formulas. Τα κύρια keybindings είναι: v  -> Visual, y  -> Yank p,  -> Paste . Στο τέταρτο παραδοτέο έκανα εγκατάσταση της εφαρμογής beet. Για τη χρήση του beet πρέπει να φτιάξεις 3 φακέλους για τη μουσική και βιβλιοθήκη. Μετά αλλάζεις το αρχείο config της εφαρμογής όπου βάζεις τους νέους φακέλους σου. Για τη εισαγωγή τραγουδιών τρέχεις τη εντολή beet import ~/Music/Mousikiold. Πρόσθεση tags με τη εντολή: beet modify song artists="" tags="" title="". Για να αφαιρέσεις ή προσθέσεις τραγούδια: beet remove title:"", beet import. Στο τέλος μπορείς να κοιτάξεις τη λίστα με τα τραγούδια σου μέσο της εντολής: beet ls. Τελειώνοντας το πέμπτο παραδοτέο έχει εκπονηθεί μέσο της εφαρμογής cmus (sudo apt-get install cmus). Η cmus είναι μια εφαρμογή τέρμιναλ η οποία είναι κατάλληλη για τη διαχείριση τεράστιων βιβλιοθηκών χωρίς κάποιο πρόβλημα. Η εισαγωγή μουσικής μέσα στη εφαρμογή γίνετε μέσο της εντολής::add ~Music/Library. Το πρόγραμμα αυτό είναι χωρισμένο σε 7 διαφορετικά μέρη (Library, Sorted Library, Playlist, Play Queue, Browser, Filters, Settings) και για τη χρήση της υπάρχουν τα keybindings: x = play song, c = pause, v = stop.
 
-**Bold** and _Italic_ and `Code` text
+## Αποτελέσματα:
+Πιο κάτω είναι τα Asciinema λινκς στα οποία φενετε η διαδικασια του κάθε παραδοτέου:
+## 1ο παραδοτέο.
+### [Asciinema Recording URL: https://asciinema.org/a/VYVtnnYotgjyRvJECRBhw0njt](https://asciinema.org/a/VYVtnnYotgjyRvJECRBhw0njt)
+## 2ο παραδοτέο.
+### [Asciinema Recording URL: https://asciinema.org/a/277309](https://asciinema.org/a/277309)
+## 3ο παραδοτέο.
+### [Asciinema Recording URL: https://asciinema.org/a/278021](https://asciinema.org/a/278021)
+## 4ο παραδοτέο.
+### [Asciinema Recording URL: https://asciinema.org/a/277344](https://asciinema.org/a/277344)
+## 5ο παραδοτέο.
+### [Asciinema Recording URL: https://asciinema.org/a/BldMvAjOoEmS9gvAd1X2XvjJg](https://asciinema.org/a/BldMvAjOoEmS9gvAd1X2XvjJg)
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Συμπεράσματα:
+Με τη χρήση του Linux και κυρίως του τέρμιναλ έχω διαπιστώσει ότι η χρήση του είναι αρκετά καλή και εύκολη. Υπάρχουν πάρα πολλά προγράμματα σχεδόν για κάθε χρήση τα οποία επίσης είναι πολύ πιο γρήγορα και χωρίς καθόλου προβλήματα. Σχεδόν όλα όσα μπορείς να κάνεις εκτός τέρμιναλ είναι εφικτά μέσα στο τέρμιναλ μέσο κάποιας εφαρμογής. Το τέρμιναλ έχει πάρα πολλά προγράμματα για μουσικές με τα οποία μπορεί κάποιος να κάνει άφθονες τροποποιήσεις στη βιβλιοθήκη του. Εξίσου μπορεί κάποιος να επεξεργαστεί ένα spreadsheet ή να κατεβάσει ένα τόρρεντ.
 
-### Jekyll Themes
+## Συμμετοχικό Υλικό
+## [Twitter Profile : https://twitter.com/p17papp1](https://twitter.com/p17papp1)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/andreaspappoutas/MM-Final-Report/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+## Α:
+#### [Skype](https://twitter.com/p17papp1/status/1193272511997390852)
+#### [Windows 10](https://twitter.com/p17papp1/status/1193269938565369857)
+#### [Linux](https://twitter.com/p17papp1/status/1193270222679093248)
+#### [Eclipse IDE](https://twitter.com/p17papp1/status/1193270675525554182)
+#### [Social Media](https://twitter.com/p17papp1/status/1193270776532733953)
+#### [Google Assistant](https://twitter.com/p17papp1/status/1193270898645708800)
+#### [App](https://twitter.com/p17papp1/status/1193271203148029957)
+#### [Raspberry Pi](https://twitter.com/p17papp1/status/1193271635106811905)
+#### [Google Search Engine](https://twitter.com/p17papp1/status/1193271820763455488)
+#### [Modern mouse](https://twitter.com/p17papp1/status/1193272109776228352)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Β:
+## [Λίνκ αποθετηρίου](https://github.com/andreaspappoutas/gr)
+
